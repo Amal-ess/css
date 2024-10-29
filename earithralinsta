@@ -1,0 +1,110 @@
+
+.story-container
+{
+	width: 300px;
+	height: 570px;
+	position: relative;
+	background-color: #111;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.story-header
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: calc(100% - 20px);
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.progress-bars
+{
+	display: flex;
+	gap: 3px;
+}
+
+.progress-bar
+{
+	flex-grow: 1;
+	height: 2px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 1px;
+}
+
+.profile-info
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.profile-pic
+{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.username
+{
+	color: white;
+	font-weight: 600;
+	letter-spacing: 0.3px;
+	font-family: arial;
+}
+
+.story-content
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.story-image
+{
+	width: 100%;
+	height: auto;
+}
+
+.story-footer
+{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: calc(100% - 20px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.message-box
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 20px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.message-box input
+{
+	border: none;
+	background: transparent;
+	color: white;
+	width: 100%;
+	outline: none;
+}
+
+.message-box i
+{
+	color: white;
+}
+
+/*http://didovesei.tumblr.com/ */
